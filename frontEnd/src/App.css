@@ -1,0 +1,65 @@
+@import '~antd/dist/antd.css';
+
+h4 {
+	color: white;
+	font-weight: bold;
+}
+
+.Login-page {
+	background-image: url('../src/images/flat-1680090.png');
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Sign {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 15px;
+	border-color: white;
+	height: auto;
+	width: 400px;
+	background: rgba(63, 169, 255, 0.5);
+	margin: 40px;
+	padding-top: 20px;
+	border-radius: 3%;
+}
+
+.Login-input {
+	width: 400px;
+	margin: 15px;
+}
+
+.Banner {
+	background-image: url('../src/images/flat-1680090.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.HomeThemes {
+	margin: 25px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 910px) {
+	.Login-page {
+		flex-direction: column;
+		width: auto;
+		margin: 0px;
+	}
+
+	.Login-input {
+		width: auto;
+	}
+
+	.sign {
+		width: auto;
+	}
+}
